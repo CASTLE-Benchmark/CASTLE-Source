@@ -1,0 +1,1 @@
+docker run -v $PWD/scan:/src -e SEMGREP_APP_TOKEN=$(cat config.json | jq ".semgrep_token") --rm semgrep/semgrep semgrep scan --include=main.c --json --json-output=report.json --secrets --config auto --quiet

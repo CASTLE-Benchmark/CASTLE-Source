@@ -1,0 +1,36 @@
+# Build files
+dataset/*/*
+!dataset/*/*.c
+tests.csv
+dataset.json
+report.csv
+report.json
+report.xlsx
+scan/
+*-report.json
+!/reports/*-report.json
+human_result/
+human_results.*
+reports/*.csv
+/repository
+/manual_prompts.md
+__pycache__/
+*.pyc
+*.pyo
+
+# Assets
+*.png
+*.eps
+*.jpg
+*.pdf
+
+# Secrets
+config.json
+secrets.json
+
+# OS Files
+.DS_Store
+
+# Other applications
+.vscode/
+~$*

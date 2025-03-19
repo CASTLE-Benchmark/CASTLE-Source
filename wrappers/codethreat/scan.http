@@ -1,0 +1,23 @@
+# Using REST Client extension for Visual Studio Code
+
+###
+
+GET https://cloud.codethreat.com/api/organization/list
+Content-Type: application/json
+Authorization: Bearer ...
+
+###
+
+GET https://cloud.codethreat.com/api/projects
+Content-Type: application/json
+x-ct-organization: dubniczky@github
+Authorization: Bearer ...
+
+###
+
+POST https://cloud.codethreat.com/api/scanlog/issues?pageSize=100
+x-ct-organization: dubniczky@github
+Content-Type: application/json
+Authorization: Bearer ...
+
+{}

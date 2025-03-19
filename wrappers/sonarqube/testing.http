@@ -1,0 +1,8 @@
+GET /api/issues/search?organization=castle-benchmark HTTP/1.1
+Host: sonarcloud.io
+Authorization: Bearer 8a9160dbe1080e67bc6872416714fa8b44848815
+
+###
+GET /api/issues/search?organization=dubniczky?facets=severities HTTP/1.1
+Host: sonarcloud.io
+Authorization: Bearer -

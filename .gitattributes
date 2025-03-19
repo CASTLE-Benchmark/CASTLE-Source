@@ -1,0 +1,4 @@
+# Auto detect text files and perform line ending normalization
+* text=auto
+# Always normalize to LF, otherwise they won't work when checked out on Windows
+*.sh text eol=lf
