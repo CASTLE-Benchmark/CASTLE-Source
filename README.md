@@ -2,6 +2,8 @@
 
 This is the source repository for the CASTLE Benchmark project. This repository is a cleaned version of our internal repository to avoid leaking sensitive and copyrighted information. For more information on the project please look at https://github.com/CASTLE-Benchmark.
 
+The parsed dataset JSON files are available on [GitHub](https://github.com/CASTLE-Benchmark/CASTLE-Benchmark/tree/main/datasets).
+
 Authors: _Richard A. Dubniczky, Krisztofer Zoltan Horvát, Tamás Bisztray, Mohamed Amine Ferrag, Lucas C. Cordeiro, and Norbert Tihanyi_
 
 ## Repository Statistics
